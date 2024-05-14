@@ -367,7 +367,7 @@
     --background-color:     #F4F3F5; /* light grey*/
     --tertiary-color:       #FEEECA; /* light yellow */
     --tertiary-color-rgb:   254, 238, 202;
-    --font-size-regular:    clamp(1rem, .5vw + .9rem, 1.25rem);
+    --font-size-regular:    clamp(1rem, .9vw + .8rem, 1.25rem);
     --line-height-regular:  clamp(1.5rem, 1.9vw + 1rem, 1.875rem);
     --font-size-big:        calc(var(--font-size-regular) * 1.8);
     --line-height-big:      calc(var(--line-height-regular) * 1.66);
@@ -579,7 +579,7 @@ html {
 .btn {
       
     display:        inline-block;
-    width:          clamp(11.6436rem, 90%, 16.25rem);
+    width:          clamp(11.6436rem, 90%, 15rem);
     border:         0.125rem solid;
     opacity:        1;
     padding:        .5rem;
@@ -616,7 +616,7 @@ html {
     .btn__hollow:hover {
       background:   var(--brand-color);
       border-color: var(--brand-color);
-      
+      color:        var(--secondary-color);
     }
 
     .btn__hero {
@@ -917,7 +917,7 @@ HERO SECTION
   justify-content:    space-between;
   align-items:        center;
   color:              var(--secondary-color);
-  padding:            2.5rem 1rem calc(var(--line-height-small) + 1.5rem) 1rem;
+  padding:            6.6vh 1rem calc(var(--line-height-small) + 1rem) 1rem;
 } 
 
 .hero-text--wrapper {
@@ -931,11 +931,16 @@ HERO SECTION
 }
 
   .text__hero {
-    width:         90%;
+    /*width:         90%;*/
   }
 
 /*Hero background and layout for bigger screens*/
-
+@media (min-width: 768px) {
+  .title__hero {
+    font-size:   calc(var(--font-size-regular) * 2);
+    line-height: calc(var(--line-height-regular) * 1.5);
+  }
+}
 @media (min-width: 986px) {
   .hero--main {
     background:  url('/images/photos/Desktop_woman-relaxing.jpg') no-repeat center / cover;
@@ -984,15 +989,15 @@ például nagy asztali monitorok.
   flex-flow:       column nowrap;
   justify-content: flex-start;
   align-items:     center;
-  width:           100%;
+  width:           min(55.1015625rem, 100%);
 } 
 
 .article__last {
-  margin-bottom: 2rem;
+  margin-bottom: 5vw;
 }
 
 .article--img {
-  width:         100%;
+  width:         min(26.879875rem, 100%);
   aspect-ratio:  '1/1' ; 
   object-fit:    cover;
   margin-bottom: 1rem;
@@ -1003,7 +1008,7 @@ például nagy asztali monitorok.
   flex-flow:       column nowrap;
   justify-content: flex-start;
   align-items:     center;
-  width:           100%;
+  width:         min(26.879875rem, 100%);
   gap:             1.5rem;
   
 }
@@ -1037,15 +1042,6 @@ például nagy asztali monitorok.
 /* TABLET AND DESKTOP */
 /*--------------------------------*/
 
-@media (min-width: 768px) {
-  .article--content {
-    width: 70%;
-  }
-  .article--img {
-    width: 70%;
-  }
-}
-
 @media (min-width: 992px) {
   .article {
     display: grid;
@@ -1056,32 +1052,45 @@ például nagy asztali monitorok.
       "img content";
     column-gap: 1.5rem;
     row-gap:    0;
-    margin-top: 2rem;
-    border: 1px solid green;
+    margin-top: 5vw;
   }
   .article--title {
     grid-area: title; 
     align-self: end;
     margin-top: 0; 
-    border: 1px solid red;
+    text-align: left;
   }
   .article--img {
     grid-area: img; 
-    align-self: stretch; 
+    align-self: stretch;
+    justify-self: center; 
     margin-bottom: 0;
-    border: 1px solid orange;
   }
   .article--content {
     grid-area: content;
-    align-self: start; 
-    width: 100%; 
-    border: 1px solid blue
+    align-self: start;
+    justify-self: center; 
   }
-  
   .article__middle {
     grid-template-areas:
     "title img"
     "content img";
+  }
+}
+
+@media (min-width: 1500px) {
+  /*.article {
+    box-sizing: content-box;
+    padding:    5%;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  }*/
+  body {
+    background-color: rgba(var(--brand-color-rgb), 0.1);
+  }
+  .article {
+    background: var(--secondary-color);
+    box-sizing: content-box;
+    padding: 5%;
   }
 }
 /*!**************************************************************************************************************!*\
