@@ -1,0 +1,1194 @@
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/normalize.css ***!
+  \*****************************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/base.css ***!
+  \************************************************************************************************************/
+/*-----------------------------------*\
+* BASIC SETTINGS OF THE PAGE
+\*-----------------------------------*/
+
+:root {
+    --primary-color:        #011217; /* dark blue -almost black */
+    --primary-color-rgb:    1, 18, 23;
+    --secondary-color:      #FFFFFF; /* white */
+    --secondary-color-rgb:  255, 255, 255;
+    --brand-color:          #2D7890; 
+    --brand-color-rgb:      45, 120, 144;
+    --background-color:     #F4F3F5; /* light grey*/
+    --tertiary-color:       #FEEECA; /* light yellow */
+    --tertiary-color-rgb:   254, 238, 202;
+    --font-size-regular:    clamp(1rem, .5vw + .9rem, 1.25rem);
+    --line-height-regular:  clamp(1.5rem, 1.9vw + 1rem, 1.875rem);
+    --font-size-big:        calc(var(--font-size-regular) * 1.8);
+    --line-height-big:      calc(var(--line-height-regular) * 1.66);
+    --font-size-small:      0.875rem;
+    --line-height-small:    1rem;
+    --header-height:        5rem;
+    --hero-height:          calc(100vh - var(--header-height));  
+    --footer-height:        7.5rem; 
+} 
+
+/* normalize CSS */
+
+* {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+  
+  html, body {
+    width:      100%;
+    overflow-x: hidden;
+  }
+
+
+   body {
+    background-color: var(--secondary-color);
+   }
+
+/*** TYPOGRAPHY ***/
+
+html {
+  font-size:        16px;
+  color:            var(--primary-color);
+}
+
+  
+  body {
+    width:       100vw;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    text-align:  left;
+    font-size:   var(--font-size-regular);
+    line-height: var(--line-height-regular);
+  }
+
+
+    a {
+      text-decoration: none;
+    }
+
+/*Title*/
+
+    .title {
+      font-family:   'Montserrat', sans-serif;
+      font-weight:    bold;
+      font-size:      calc(var(--font-size-regular) * 1.5);
+      line-height:    calc(var(--line-height-regular) * 1);
+      margin:         0;
+      margin-bottom:  .5rem;
+    }
+     
+      
+      .title__hero {
+        font-weight:    600;
+        text-align:     center;
+      }
+
+      
+
+
+    .title__center {
+      text-align: center;
+      margin-top:    1rem;
+      margin-bottom: 1rem;
+    }
+
+    
+/*Text*/
+
+
+    .text__hero {
+      text-align:  center;
+    }
+
+    
+    .text__small {
+      font-size:   var(--font-size-small);
+      line-height: var(--line-height-small);
+    }
+
+    .text__logo {
+      font-family: Arizonia, cursive;
+      font-size:   clamp(1.5rem, 1.5vw + 1rem, 2rem);
+      
+      line-height: var(--header-height);
+      color:       var(--secondary-color);
+    }
+
+    .text__nav {
+      font-family:    'Montserrat', sans-serif;
+      font-size:      var(--font-size-small);
+      line-height:    var(--line-height-small);
+      color:          var(--secondary-color);
+      font-weight:    500;
+    }
+
+    .text__brand {
+      color: var(--brand-color);
+    }
+     
+
+    .text__bold {
+      font-weight: bold;
+    }
+
+    .text__50 {
+      width: min(420px, 90%);
+      margin:  0 auto;
+    }
+
+      @media (min-width: 601px) {
+        .text__50 {
+          width:   50%;
+        }
+      }   
+
+  
+   
+
+  
+
+
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/layout.css ***!
+  \**************************************************************************************************************/
+/*--------------------------------*\
+* LAYOUT 
+
+*Container............overall layout of the page
+*
+*Main.................over layout of the content
+*
+\*--------------------------------*/
+
+
+/*--------------------------------*\
+* OVERALL LAYOUT OF THE PAGE
+\*--------------------------------*/
+
+.container {
+    display:        flex;
+    flex-flow:      column nowrap;
+    min-height:     100vh;
+    width:          100%;
+    position:       relative;
+}
+  
+  
+  
+  
+  
+  /*--------------------------------*\
+  * CONTENT LAYOUT
+  \*--------------------------------*/
+
+  main {
+    display:         flex;
+    flex-flow:       column nowrap;      
+    justify-content: flex-start;
+    align-items:     center;
+    flex-grow:       1;
+    width:           100%;
+    margin-top:      var(--header-height);
+    
+  }
+
+  section {
+    display:         flex;
+    flex-flow:       column nowrap;
+    justify-content: flex-start;
+    align-items:     center;
+    width:           100%;
+    gap:             2rem;
+    padding:         1rem;
+  }
+
+  @media (min-width: 400px) {
+    section {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    section {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+
+ 
+  
+
+ 
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/buttons.css ***!
+  \***************************************************************************************************************/
+.btn {
+      
+    display:        inline-block;
+    width:          clamp(11.6436rem, 90%, 16.25rem);
+    border:         0.125rem solid;
+    opacity:        1;
+    padding:        .5rem;
+    font-size:      var(--font-size-small);
+    line-height:    var(--line-height-small);
+    font-weight:    500;
+    text-align:     center;
+    text-transform: uppercase;
+    align-self:     center;
+  }
+  
+  .btn:hover {
+    transition:       0.3s;
+  }
+  
+    .btn__primary {
+      background:   var(--brand-color) 0% 0% no-repeat padding-box;
+      border-color: var(--brand-color);
+      color:        var(--secondary-color);
+    }
+
+    .btn__primary:hover {
+      background:   transparent;
+      border-color: var(--brand-color);
+      color:        var(--brand-color);
+    }
+
+    .btn__hollow {
+      background:   transparent;
+      border-color: var(--brand-color);
+      color:        var(--brand-color);
+    }
+
+    .btn__hollow:hover {
+      background:   var(--brand-color);
+      border-color: var(--brand-color);
+      
+    }
+
+    .btn__hero {
+      background:   var(--brand-color) 0% 0% no-repeat padding-box;
+      border-color: var(--brand-color);
+      color:        var(--secondary-color);
+    }
+
+    .btn__hero:hover {
+      background:   transparent;
+      color:        var(--secondary-color);
+    }
+
+    .btn__hero__hollow {
+      background:   transparent;
+      border-color: var(--brand-color);
+      color:        var(--secondary-color);
+    }
+
+    .btn__hero__hollow:hover {
+      background:   var(--brand-color) 0% 0% no-repeat padding-box;
+      border-color: var(--brand-color);
+      
+    }
+
+    .buttons--wrapper {
+      display:         flex;
+      flex-flow:       column nowrap;
+      justify-content: space-between;
+      width:           100%;
+      gap:             1.4rem;
+    
+    }
+
+    /*
+Extra kicsi (XS): Kevesebb, mint 576px széles készülékek. Ezek az extra kicsi készülékek, 
+például mobiltelefonok vagy kis táblagépek.
+Kicsi (SM): Legalább 576px széles készülékek. Ezek a kis készülékek, például 
+kis méretű táblagépek vagy nagyobb mobiltelefonok.
+Közepes (MD): Legalább 768px széles készülékek. Ezek közepes méretű készülékek, 
+mint például táblagépek vagy nagyobb mobiltelefonokat elforgatva.
+Nagy (LG): Legalább 992px széles készülékek. Ezek a nagyobb asztali kijelzők vagy 
+nagyobb táblagépek.
+Extra nagy (XL): Legalább 1200px széles készülékek. Ezek az extra nagy kijelzők, 
+például nagy asztali monitorok.
+*/
+@media (min-width: 568px) {
+  .buttons--wrapper {
+    flex-flow:       row nowrap;
+    justify-content: center;
+    gap:             1rem;
+  }
+}
+@media (min-width: 768px) {
+  .buttons__hero--wrapper {
+    justify-content: flex-start;
+    gap:             1.4rem;
+    width:           60%;
+  }
+  
+}
+
+
+
+
+    /* On tablet and mobile there is no hover effect */
+
+    /*@media (max-width: 923px) {
+      .btn__primary:hover {
+        background:   var(--brand-color) 0% 0% no-repeat padding-box;
+        border-color: var(--brand-color);
+        color:        var(--secondary-color);
+      } 
+      .btn__hollow:hover {
+        background:   transparent;
+        border-color: var(--secondary-color);
+        color:        var(--secondary-color); 
+      }
+    }
+  */
+    
+
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/header.css ***!
+  \**************************************************************************************************************/
+/*
+*Header...............main layout, color, logo size, navbar
+*
+*Header - Navbar..... main layout typography and color, typography,
+*                              and hover effect
+*Mobile version......sandvich menu, padding adjustement 
+*                    of the header
+*/
+
+/*Sticky header*/
+
+header {
+  width:            100%;
+  display:          flex;
+  flex-flow:        row nowrap;
+  justify-content:  space-between;  
+  align-items:      center;
+  background:       var(--brand-color) 0% 0% no-repeat padding-box;
+  opacity:          1;
+  padding-left:     10%;
+  padding-right:    10%;
+  position:         fixed;
+  z-index:          100; 
+ 
+  
+}
+
+  
+  /* Navbar */
+ 
+  .js-nav--wrapper {
+  display: flex;
+  width:   100%;
+  position: fixed;
+  top:     var(--header-height);
+  left:    0;
+}
+
+  .js-nav--wrapper > * {
+    width: 100%;
+  }
+    .nav {
+      max-height:       0;
+      display:          flex;
+      width:            100%;
+      gap:              0;
+      margin-left:      0; /*desktop version has 3rem margin-left*/
+      flex-flow:        column nowrap;
+      justify-content:  flex-start;
+      align-items:      center;
+      background-color: var(--brand-color);
+      overflow:         hidden;
+      transition:       max-height 0.5s ease-out;
+    }
+    
+      .js-nav--wrapper.js-is-open .nav {
+        max-height: 100%;
+      }
+    
+        .nav > * { 
+          border-bottom:   1px solid rgba(var(--secondary-color-rgb), 0.65); /*[1]*/
+          padding-top:     1px;
+          width:           100%;
+          height:          2rem;
+          z-index:         100;
+          display:         flex;
+          justify-content: center;
+          align-items:     center;
+         
+        }
+
+        .js-nav--wrapper.js-is-open .nav .nav--item__last { /*[1]*/
+          border-bottom: none;
+        }
+    
+            
+        .js-nav--wrapper.js-is-open .nav > .js-nav--item:hover::after { /* [2] */
+          display: none;
+        }
+         
+      
+    .js-nav--menu {
+      display:          block;
+      color:        var(--secondary-color);
+    }
+    
+    
+    
+      .js-nav--menu.js-highlight {
+        opacity:          1;
+      }
+    
+    /*DESKTOP LAYOUT*/
+    
+    @media (min-width: 992px) {
+      .js-nav--wrapper {
+        display: flex;
+        width:   70%;
+        position: unset;
+      }
+  
+      .js-nav--wrapper > * {
+        width: 100%;
+      }  
+    .nav {
+      width:           100%;
+      display:         flex;
+      max-height:      100%;
+      flex-flow:       row nowrap;
+      justify-content: space-between;
+      align-items:     center;
+      gap:             .5rem;
+    }
+
+      .nav > * {
+        border-bottom: none;
+      }
+    
+      .js-nav--item, .js-nav--item__logo {
+        position:        relative; /* to position the underline */
+        display:         flex;
+        justify-content: center;
+        align-items:     center;
+        padding:         0;
+        height:          var(--header-height);
+      }
+    
+      /*in case of hover, underline is shown at the bottom of the navbar*/
+    
+        .js-nav--item:hover::after {
+          content:          "";
+          display:          block;
+          width:            100%;
+          height:           0.25rem;
+          background-color: var(--secondary-color);
+          position:         absolute;
+          bottom:           0;
+          left:             0;
+          z-index:          1000;
+        }
+      
+    
+        .js-nav--item:hover, .js-nav--menu:hover {
+          
+          transition:       0.3s;
+        }
+  
+        .js-nav--item__logo:hover::after {
+          content:          "";
+          display:          block;
+          width:            100%;
+          height:           0.25rem;
+          background-color: var(--secondary-color);
+          position:         absolute;
+          bottom:           0;
+          left:             0;
+          
+        
+        }
+  
+      /*Active link is highlighted*/
+    
+        .js-nav--item__active {
+          font-weight:     bold;
+        }
+    
+  
+    /*Sandvich menu is not shown on desktop */
+    
+    
+    .js-nav--menu {
+      display:         none;
+      color:           var(--secondary-color);
+      
+         
+    }
+  }
+    @media (min-width: 1400px) {
+      header {
+        padding-left:  20%;
+        padding-right: 20%;
+      }
+    }
+    
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/hero.css ***!
+  \************************************************************************************************************/
+/*********************************************************************\
+HERO SECTION
+\********************************************************************/
+/*
+*Hero background and color.................mobile view
+*
+*Hero layout and background changes........for bigger screens
+*/
+
+
+
+
+
+
+/* Hero background and color */
+
+.hero--main {
+  background:  url('/images/photos/Mobile_woman-relaxing.jpg') no-repeat center / cover;
+  background-blend-mode: multiply;
+  /*background-color:   rgba(var(--brand-color-rgb), .3);*/
+  min-height:         var(--hero-height);
+  width:              100%;
+  
+  display:            flex;
+  flex-flow:          column nowrap;
+  justify-content:    space-between;
+  align-items:        center;
+  color:              var(--secondary-color);
+  padding:            2.5rem 1rem calc(var(--line-height-small) + 1.5rem) 1rem;
+} 
+
+.hero-text--wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: center;
+  align-items:     center;
+  width:           100%;
+ 
+
+}
+
+  .text__hero {
+    width:         90%;
+  }
+
+/*Hero background and layout for bigger screens*/
+
+@media (min-width: 768px) {
+  .hero--main {
+    background:  url('/images/photos/Desktop_woman-relaxing.jpg') no-repeat center / cover;
+    justify-content: flex-start;
+    align-items:     flex-start;
+    gap:             2rem;
+    padding:         10% 0 0 10%;
+  }
+  .hero-text--wrapper {
+    align-items: flex-start;
+    width:       max(39.66rem, 50%);
+   
+  }
+  .title__hero, .text__hero {
+    text-align: left;
+  }
+  .title__hero {
+    font-size: calc(var(--font-size-regular) * 1.875);
+    line-height: calc(var(--line-height-regular) * 1.5);
+  }
+ 
+}
+
+@media (min-width: 1400px) {
+  .hero--main {
+    padding: 10% 0 0 20%;
+  }
+}
+   /*
+Extra kicsi (XS): Kevesebb, mint 576px széles készülékek. Ezek az extra kicsi készülékek, 
+például mobiltelefonok vagy kis táblagépek.
+Kicsi (SM): Legalább 576px széles készülékek. Ezek a kis készülékek, például 
+kis méretű táblagépek vagy nagyobb mobiltelefonok.
+Közepes (MD): Legalább 768px széles készülékek. Ezek közepes méretű készülékek, 
+mint például táblagépek vagy nagyobb mobiltelefonokat elforgatva.
+Nagy (LG): Legalább 992px széles készülékek. Ezek a nagyobb asztali kijelzők vagy 
+nagyobb táblagépek.
+Extra nagy (XL): Legalább 1200px széles készülékek. Ezek az extra nagy kijelzők, 
+például nagy asztali monitorok.
+*/
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/content.css ***!
+  \***************************************************************************************************************/
+.article {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  width:           100%;
+} 
+
+.article__last {
+  margin-bottom: 2rem;
+}
+
+.article--img {
+  width:         100%;
+  aspect-ratio:  '1/1' ; 
+  object-fit:    cover;
+  margin-bottom: 1rem;
+}
+
+.article--content {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  width:           100%;
+  gap:             1.5rem;
+  
+}
+
+  .align-left {
+    align-self: flex-start;
+  }
+
+  
+
+  .article--list li {
+    list-style-position: inside;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .article--list {
+    padding-left: 0;
+  }
+  
+  
+  
+  .article--list li:before {
+    content: "•"; /* Bullet point ikon */
+    margin-right: 0.5rem; /* A bullet point távolsága a szövegtől */
+    font-size: 1.5rem;
+  }
+  
+
+/*--------------------------------*/
+/* TABLET AND DESKTOP */
+/*--------------------------------*/
+
+@media (min-width: 768px) {
+  .article--content {
+    width: 70%;
+  }
+  .article--img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:    auto;
+    grid-template-areas:
+      "img title"
+      "img content";
+    column-gap: 1.5rem;
+    row-gap:    0;
+    margin-top: 2rem;
+    border: 1px solid green;
+  }
+  .article--title {
+    grid-area: title; 
+    align-self: end;
+    margin-top: 0; 
+    border: 1px solid red;
+  }
+  .article--img {
+    grid-area: img; 
+    align-self: stretch; 
+    margin-bottom: 0;
+    border: 1px solid orange;
+  }
+  .article--content {
+    grid-area: content;
+    align-self: start; 
+    width: 100%; 
+    border: 1px solid blue
+  }
+  
+  .article__middle {
+    grid-template-areas:
+    "title img"
+    "content img";
+  }
+}
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/footer.css ***!
+  \**************************************************************************************************************/
+footer {
+    height:           var(--footer-height);
+    width:            100vw;
+    display:          flex;
+    flex-flow:        column nowrap;
+    justify-content:  center;  
+    align-items:      center;
+    gap:              calc(var(--line-height-small) / 2);
+    background:       var(--primary-color) 0% 0% no-repeat padding-box;
+    opacity:          1;
+    
+  }
+
+  .links--wrapper {
+    display:         flex;
+    flex-flow:       column nowrap;
+    justify-content: center;
+    align-items:     center;
+    gap:             0;
+  }
+  
+    .footer--text {
+      width:           69.375rem;
+      text-align:      center;
+      letter-spacing:  0.15rem;
+      text-transform:  uppercase;
+      color:           var(--tertiary-color);
+    }
+
+    .footer--text__link {
+      color:           var(--brand-color);
+    }
+
+    .footer--text__link:hover {
+      text-decoration: underline;
+    }
+  
+
+    
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/icons.css ***!
+  \*************************************************************************************************************/
+/* Social media icons */
+
+.icons--wrapper {
+    /*width:           50%;*/
+    height:          2rem;
+    display:         flex;
+    flex-flow:       row nowrap;
+    justify-content: flex-start;
+    gap:             .625rem;
+
+  }
+
+    .icons {
+      display:          flex;
+      flex-flow:        row nowrap;
+      justify-content:  center;
+      align-items:      center;
+      width:            2rem;
+      height:           2rem;
+      background-color: var(--brand-color);
+      color:            var(--secondary-color);
+      opacity:          .8;
+      border-radius:    50%;
+    }
+
+    .icons:hover {
+      background-color: transparent;
+      color:            var(--brand-color);
+      border:           .125rem solid var(--brand-color);
+    }  
+
+
+    .icons__light {
+      background-color: var(--tertiary-color);
+      color:            var(--primary-color);
+    }
+
+    .icons__light:hover {
+        background-color: transparent;
+        color:            var(--tertiary-color);
+        border:           .125rem solid var(--tertiary-color);
+      }  
+
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/hide.css ***!
+  \************************************************************************************************************/
+.hide {
+  display: none;
+}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./public/css/style.css ***!
+  \**************************************************************************************************************************************************************************/
+/*@import 'partials/highlighted-text.css';*/
+/*@import 'partials/contacts.css';
+@import 'partials/drinks.css';*/
+/*@import 'partials/accordion.css';
+@import 'partials/privacy.css';
+@import 'partials/impressium.css';*/
+
+
+
+
+/*# sourceMappingURL=style.css.map*/
