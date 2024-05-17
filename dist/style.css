@@ -811,7 +811,11 @@ header {
         opacity:          1;
       }
 
-
+    /*Active link is highlighted*/
+    
+    .js-nav--item__active {
+      font-weight:     bold;
+    }
 
 
 
