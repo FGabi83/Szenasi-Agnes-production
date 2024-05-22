@@ -531,8 +531,10 @@ html {
 .container {
     display:        flex;
     flex-flow:      column nowrap;
+    align-items:    center;
     min-height:     100vh;
-    width:          100%;
+    max-width:      1440px;
+    margin:         0 auto;
     position:       relative;
 }
   
@@ -720,12 +722,11 @@ például nagy asztali monitorok.
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/header.css ***!
   \**************************************************************************************************************/
 /*
-*Header...............main layout, color, logo size, navbar
+*Header...............main layout, color,  navbar
 *
 *Header - Navbar..... main layout typography and color, typography,
 *                              and hover effect
-*Mobile version......sandvich menu, padding adjustement 
-*                    of the header
+*Desktop version......sandvich menu hidden, underline shown on hover
 */
 
 /*Sticky header*/
@@ -765,7 +766,7 @@ header {
       display:          flex;
       width:            100%;
       gap:              0;
-      margin-left:      0; /*desktop version has 3rem margin-left*/
+      margin-left:      0; 
       flex-flow:        column nowrap;
       justify-content:  flex-start;
       align-items:      center;
@@ -794,10 +795,10 @@ header {
           border-bottom: none;
         }
     
-            
-        .js-nav--wrapper.js-is-open .nav > .js-nav--item:hover::after { /* [2] */
+        /* Ez kell? */    
+       /* .js-nav--wrapper.js-is-open .nav > .js-nav--item:hover::after {  [2] 
           display: none;
-        }
+        }*/
          
       
     .js-nav--menu {
@@ -815,6 +816,7 @@ header {
     
     .js-nav--item__active {
       font-weight:     bold;
+      
     }
 
 
@@ -824,10 +826,15 @@ header {
     /*--------------------------------*/
     
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
+      header {
+        max-width: 1440px;
+        padding-left:  5%;
+        padding-right: 5%;
+      }
       .js-nav--wrapper {
         display: flex;
-        width:   70%;
+        width:   80%;
         position: unset;
       }
   
@@ -909,12 +916,7 @@ header {
   }
     
 
-@media (min-width: 2390px) {
-  header {
-    padding-left:  15%;
-    padding-right: 15%;
-  }
-}
+
     
 /*!****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/contacts.css ***!
@@ -991,13 +993,20 @@ header {
   .article__contacts {
     box-sizing: content-box;
     height: 50%;
+    
+    width:  min(20rem,100%);
+   
   }
- 
+  
   .free-consult, .prices {
     text-align: left;
   }
 .prices {
   margin-bottom: 2rem;
+}
+.free-consult {
+ padding-left: 1.9rem;
+  
 }
 
 
@@ -1293,27 +1302,22 @@ HERO SECTION
 
 
 
-@media (min-width: 1500px) {
-  /*.article {
-    box-sizing: content-box;
-    padding:    5%;
-    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.2);
-  }*/
+@media (min-width: 1440px) {
+  
   body {
    background-color: rgba(var(--brand-color-rgb), 0.1);
   }
-  .article {
-    background: var(--secondary-color);
-    box-sizing: content-box;
-    padding: 5%;
+  .section {
+    background-color: var(--secondary-color);
   }
+  
 }
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/footer.css ***!
   \**************************************************************************************************************/
 footer {
     height:           var(--footer-height);
-    width:            100vw;
+    width:            100%;
     display:          flex;
     flex-flow:        column nowrap;
     justify-content:  center;  
