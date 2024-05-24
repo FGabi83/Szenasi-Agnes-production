@@ -737,6 +737,7 @@ header {
   flex-flow:        row nowrap;
   justify-content:  space-between;  
   align-items:      center;
+  align-self:       flex-start;
   background:       var(--brand-color) 0% 0% no-repeat padding-box;
   opacity:          1;
   padding-left:     10%;
@@ -828,9 +829,10 @@ header {
 
     @media (min-width: 1200px) {
       header {
-        max-width: 1440px;
+        max-width:     1440px;
         padding-left:  5%;
         padding-right: 5%;
+        
       }
       .js-nav--wrapper {
         display: flex;
@@ -1409,10 +1411,7 @@ footer {
 /*!**************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./public/css/style.css ***!
   \**************************************************************************************************************************************************************************/
-/*@import 'partials/highlighted-text.css';*/
-/*@import 'partials/drinks.css';*/
-/*@import 'partials/accordion.css';
-@import 'partials/privacy.css';
+/*@import 'partials/privacy.css';
 @import 'partials/impressium.css';*/
 
 
