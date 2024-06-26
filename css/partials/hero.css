@@ -14,7 +14,6 @@ HERO SECTION
   background:  url('/images/photos/test-Mobile_woman-relaxing.jpg') no-repeat center / cover;
   min-height:         var(--hero-height);
   width:              100%;
-  
   display:            flex;
   flex-flow:          column nowrap;
   justify-content:    space-between;
