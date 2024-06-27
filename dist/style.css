@@ -601,7 +601,7 @@ html {
 .btn {
       
     display:        inline-block;
-    width:          clamp(11.6436rem, 90%, 15rem);
+    width:          clamp(11.9248rem, 90%, 15rem);
     border:         0.125rem solid;
     opacity:        1;
     padding:        .5rem;
@@ -1055,7 +1055,7 @@ HERO SECTION
 /* Hero background and color */
 
 .hero--main {
-  background:  url('/images/photos/test-Mobile_woman-relaxing.jpg') no-repeat center / cover;
+  background:  url('/images/photos/Mobile_woman-relaxing.jpg') no-repeat center / cover;
   min-height:         var(--hero-height);
   width:              100%;
   
@@ -1064,7 +1064,7 @@ HERO SECTION
   justify-content:    space-between;
   align-items:        center;
   color:              var(--secondary-color);
-  padding:            6.6vh 1rem calc(var(--line-height-small) + 1rem) 1rem;
+  padding:            15vh 1rem calc(var(--line-height-small) + 1rem) 1rem;
 } 
 
 .hero-text--wrapper {
@@ -1083,11 +1083,15 @@ HERO SECTION
 
 @media (max-height: 539px) {
   .hero--main {
-    padding-top: .6rem;
-    padding-top: 1.97938vh;
+    padding-top: 6vh;
   }
   .title__hero {
     line-height: calc(var(--hero-title) * 1.2);
+  }
+}
+@media (min-width:768px) {
+  .hero--main {
+    padding-top: 7vh;
   }
 }
 @media (min-width: 986px) {
