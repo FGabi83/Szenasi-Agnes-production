@@ -82,7 +82,7 @@
     
   }
   .img__fullwidth {
-    width:           min(120rem, 100%);
+    width:           100%;
     max-height:      50vh;
     object-fit:      cover;
     object-position: top;
@@ -95,7 +95,7 @@
     
   .article--wrapper {
     gap:              1rem;
-    width:            min(120rem, 100%);
+    width:            100%;
     background-color: var(--secondary-color);
     
   }

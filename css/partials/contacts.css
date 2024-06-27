@@ -31,9 +31,8 @@
      
       }
 
-    .icon-text--wrapper {
+    .icon-link--wrapper {
       display: flex;
-      flex-flow: row nowrap;
       justify-content: flex-start; 
       align-items: baseline;
       gap:          .5rem; 
@@ -70,13 +69,20 @@
   .article__contacts {
     box-sizing: content-box;
     height: 50%;
+    
+    width:  min(20rem,100%);
+   
   }
- 
+  
   .free-consult, .prices {
     text-align: left;
   }
 .prices {
   margin-bottom: 2rem;
+}
+.free-consult {
+ padding-left: 1.9rem;
+  
 }
 
 

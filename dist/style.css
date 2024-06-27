@@ -498,7 +498,7 @@ html {
         }
       }   
 
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   .text__nav {
     font-size:     1rem;
   }
@@ -964,9 +964,8 @@ header {
      
       }
 
-    .icon-text--wrapper {
+    .icon-link--wrapper {
       display: flex;
-      flex-flow: row nowrap;
       justify-content: flex-start; 
       align-items: baseline;
       gap:          .5rem; 
@@ -1064,14 +1063,14 @@ HERO SECTION
   justify-content:    space-between;
   align-items:        center;
   color:              var(--secondary-color);
-  padding:            15vh 1rem calc(var(--line-height-small) + 1rem) 1rem;
+  padding:            10vh 1rem calc(var(--line-height-small) + 1rem) 1rem;
 } 
 
 .hero-text--wrapper {
   display:         flex;
   flex-flow:       column nowrap;
   justify-content: center;
-  align-items:     center;
+  align-items:     center; 
   width:           100%;
  
 
@@ -1199,7 +1198,7 @@ HERO SECTION
     
   }
   .img__fullwidth {
-    width:           min(120rem, 100%);
+    width:           100%;
     max-height:      50vh;
     object-fit:      cover;
     object-position: top;
@@ -1212,7 +1211,7 @@ HERO SECTION
     
   .article--wrapper {
     gap:              1rem;
-    width:            min(120rem, 100%);
+    width:            100%;
     background-color: var(--secondary-color);
     
   }
@@ -1365,10 +1364,8 @@ footer {
 /* Social media icons */
 
 .icons--wrapper {
-    /*width:           50%;*/
     height:          2rem;
     display:         flex;
-    flex-flow:       row nowrap;
     justify-content: flex-start;
     gap:             .625rem;
 
