@@ -1,4 +1,4 @@
-/* Social media icons */
+/* Contact icons */
 
 .icons--wrapper {
     height:          2rem;
@@ -15,16 +15,16 @@
       align-items:      center;
       width:            2rem;
       height:           2rem;
-      background-color: var(--brand-color);
-      color:            var(--secondary-color);
+      background-color: var(--secondary-color);
+      color:            var(--brand-color);
       opacity:          .8;
       border-radius:    50%;
     }
 
     .icons:hover {
       background-color: transparent;
-      color:            var(--brand-color);
-      border:           .125rem solid var(--brand-color);
+      color:            var(--secondary-color);
+      border:           .125rem solid var(--secondary-color);
     }  
 
 
