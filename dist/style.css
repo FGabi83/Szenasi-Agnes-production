@@ -1411,7 +1411,7 @@ footer {
     justify-content:  center;  
     align-items:      center;
     gap:              calc(var(--line-height-small) / 2);
-    background:       var(--brand-color) 0% 0% no-repeat padding-box;
+    background:       var(--primary-color) 0% 0% no-repeat padding-box;
     opacity:          1;
     
   }
@@ -1429,11 +1429,12 @@ footer {
       text-align:      center;
       letter-spacing:  0.15rem;
       text-transform:  uppercase;
-      color:           var(--secondary-color);
+      color:           var(--brand-color);
     }
 
     .footer--text__link {
       color:           var(--secondary-color);
+      opacity:         .8;
       
     }
 
@@ -1463,16 +1464,16 @@ footer {
       align-items:      center;
       width:            2rem;
       height:           2rem;
-      background-color: var(--secondary-color);
-      color:            var(--brand-color);
+      background-color: var(--brand-color);
+      color:            var(--primary-color);
       opacity:          .8;
       border-radius:    50%;
     }
 
     .icons:hover {
       background-color: transparent;
-      color:            var(--secondary-color);
-      border:           .125rem solid var(--secondary-color);
+      color:            var(--brand-color);
+      border:           .125rem solid var(--brand-color);
     }  
 
 

@@ -15,16 +15,16 @@
       align-items:      center;
       width:            2rem;
       height:           2rem;
-      background-color: var(--secondary-color);
-      color:            var(--brand-color);
+      background-color: var(--brand-color);
+      color:            var(--primary-color);
       opacity:          .8;
       border-radius:    50%;
     }
 
     .icons:hover {
       background-color: transparent;
-      color:            var(--secondary-color);
-      border:           .125rem solid var(--secondary-color);
+      color:            var(--brand-color);
+      border:           .125rem solid var(--brand-color);
     }  
 
 
