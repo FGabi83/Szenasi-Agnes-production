@@ -1123,6 +1123,7 @@ HERO SECTION
   justify-content: flex-start;
   align-items:     center;
   width:           min(55.1015625rem, 100%);
+  width:           min(58rem, 100%);
 } 
 
 .article__last {
@@ -1203,7 +1204,9 @@ HERO SECTION
     .crop-top {
       object-position: bottom;
     }
-
+    .crop-center {
+      object-position: 50% 85%;
+    }
     
   .article--wrapper {
     gap:              1rem;
@@ -1292,6 +1295,12 @@ HERO SECTION
   }
 }
 
+@media (min-width: 1200px) {
+  .article {
+    column-gap:    4rem;
+  }
+}
+
 
 
 
@@ -1333,6 +1342,10 @@ HERO SECTION
 .privacy--wrapper h2 {
   font-size: var(--font-size-regular);
   line-height: var(--line-height-regular);
+}
+
+.last-p {
+  margin-bottom: 2rem;;
 }
 
 /*  LISTS  */

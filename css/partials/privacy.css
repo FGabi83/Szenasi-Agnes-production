@@ -15,6 +15,10 @@
   line-height: var(--line-height-regular);
 }
 
+.last-p {
+  margin-bottom: 2rem;;
+}
+
 /*  LISTS  */
 
 .privacy--wrapper li {
