@@ -1048,8 +1048,8 @@ HERO SECTION
 /* Hero background and color */
 
 .hero--main {
-  background:  url('/images/photos/Mobile_woman-relaxing.jpg') no-repeat center / cover;
-  background:  url('/images/photos/Mobile_woman-relaxing.webp') no-repeat center / cover;
+  background:  url('/images/photos/Tablet_woman-relaxing.jpg') no-repeat center / cover;
+  background:  url('/images/photos/Tablet_woman-relaxing.webp') no-repeat center / cover;
   min-height:         var(--hero-height);
   width:              100%;
   
@@ -1074,11 +1074,7 @@ HERO SECTION
   
 
 /*Hero background and layout for bigger screens*/
-@media (min-width: 471px) {
-  .hero--main {
-    background:  url('/images/photos/Tablet_woman-relaxing.jpg') no-repeat center / cover;
-  }
-}
+
 @media (max-height: 539px) {
   .hero--main {
     padding-top: 6vh;
@@ -1511,6 +1507,14 @@ footer {
         border:           .125rem solid var(--tertiary-color);
       }  
 
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/hide.css ***!
+  \************************************************************************************************************/
+@media (min-width: 768px) {
+  .hide {
+    display: none;
+  }
+}
 /*!**************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./public/css/style.css ***!
   \**************************************************************************************************************************************************************************/
